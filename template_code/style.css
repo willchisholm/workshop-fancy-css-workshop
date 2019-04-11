@@ -80,12 +80,18 @@ GLITCH TEXT STYLING AND ANIMATIONS
     color: white;
     font-size: 1.5vw;
     font-family: 'Press Start 2P', cursive;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    animation: fall1 9s linear infinite;
 }
 
 .scroll-text-2 {
     color: white;
     font-size: 1.5vw;
     font-family: 'Press Start 2P', cursive;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    animation: fall2 13s linear infinite;
 }
 #text-lines {
     width: 100%;
@@ -94,25 +100,6 @@ GLITCH TEXT STYLING AND ANIMATIONS
     flex-direction: row;
     justify-content: space-around;
 }
-.scroll-text-1 {
-    ...
-    text-orientation: upright;
-    writing-mode: vertical-rl;
-  }
-.scroll-text-2 {
-    ...
-    text-orientation: upright;
-    writing-mode: vertical-rl;
-}
-.scroll-text-1 {
-    ...
-    animation: fall1 9s linear infinite;
-}
-.scroll-text-2 {
-    ...
-    animation: fall2 13s linear infinite;
-}
-
 
 .title-section {
     width: 100vw;
@@ -133,13 +120,6 @@ GLITCH TEXT STYLING AND ANIMATIONS
 /******************************************
 FALLING CODE STYLING AND ANIMATIONS
 *******************************************/
-.front {
-
-}
-
-.back {
-
-}
 
 /******************************************
 FLIPPING PUN STYLING AND ANIMATIONS
